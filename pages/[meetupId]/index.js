@@ -1,7 +1,6 @@
 import { MongoClient, ObjectId } from "mongodb";
 import Head from "next/head";
 
-// import { useRouter } from "next/router";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 const user = process.env.MONGODB_USER;
