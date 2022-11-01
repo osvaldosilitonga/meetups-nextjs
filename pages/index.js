@@ -6,7 +6,7 @@ import MeetupList from "../components/meetups/MeetupList";
 const user = process.env.MONGODB_USER;
 const pass = process.env.MONGODB_PASSWORD;
 const database = process.env.MONGODB_DATABASE;
-const uri = `mongodb://${user}:${pass}@ac-rqwk8ib-shard-00-00.5xb1izf.mongodb.net:27017,ac-rqwk8ib-shard-00-01.5xb1izf.mongodb.net:27017,ac-rqwk8ib-shard-00-02.5xb1izf.mongodb.net:27017/?ssl=true&replicaSet=atlas-3fteix-shard-0&authSource=admin&retryWrites=true&w=majority`;
+const uri = `mongodb://${user}:${pass}@ac-yw77jnr-shard-00-00.7gwuoqk.mongodb.net:27017,ac-yw77jnr-shard-00-01.7gwuoqk.mongodb.net:27017,ac-yw77jnr-shard-00-02.7gwuoqk.mongodb.net:27017/?ssl=true&replicaSet=atlas-elxqug-shard-0&authSource=admin&retryWrites=true&w=majority`;
 
 // ----- Export default -----
 const HomePage = (props) => {
